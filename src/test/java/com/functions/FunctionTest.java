@@ -32,7 +32,7 @@ public class FunctionTest {
         final HttpRequestMessage<Optional<String>> req = mock(HttpRequestMessage.class);
 
         final Map<String, String> queryParams = new HashMap<>();
-        queryParams.put("name", "Azure");
+        queryParams.put("name", "fep-poc-test-request");
         doReturn(queryParams).when(req).getQueryParameters();
 
         final Optional<String> queryBody = Optional.empty();

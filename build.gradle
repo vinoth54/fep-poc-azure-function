@@ -22,9 +22,9 @@ repositories {
  
 azurefunctions {
     resourceGroup = 'java-functions-group'
-    appName = 'azure-functions-sample-demo'
+    appName = 'fep-poc-sample-function'
     pricingTier = 'Consumption'
-    region = 'westus'
+    region = 'uksouth'
     runtime {
       os = 'windows'
     }    
